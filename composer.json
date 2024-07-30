@@ -1,5 +1,5 @@
 {
-  "name": "siarkowodor/h2s-modules",
+  "name": "h2sf/modules",
   "description": "description",
   "minimum-stability": "stable",
   "license": "proprietary",
@@ -12,9 +12,9 @@
     }
   ],
   "require": {
-    "siarkowodor/h2s-dependency-manager": "^0.1.0",
-    "siarkowodor/h2s-utils": "^0.1.0",
-    "siarkowodor/h2s-events": "^0.1.0"
+    "h2sf/dependency-manager": "^0.1.0",
+    "h2sf/utils": "^0.1.0",
+    "h2sf/events": "^0.1.0"
   },
   "autoload": {
     "psr-4": {
