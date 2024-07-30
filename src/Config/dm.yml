@@ -1,0 +1,14 @@
+id: Siarko.Modules.default
+
+arguments:
+  \Siarko\Modules\Paths\Provider\Factory\Manager:
+    defaultFactory: \Siarko\Modules\Paths\Provider\DefaultModulePathProviderFactory
+    specializedFactories:
+      template: \Siarko\Modules\Paths\Provider\ModuleRelativePathProviderFactory
+      assets: \Siarko\Modules\Paths\Provider\ModuleRelativePathProviderFactory
+  \Siarko\ConfigFiles\Modifier\ModifierManager:
+    modifiers:
+      - \Siarko\Modules\Config\Modifier\ModuleDefinition
+  \Siarko\Paths\Provider\Pool\PathProviderPool:
+    providerBuilders:
+      - \Siarko\Modules\Paths\ModulePathsProvider
